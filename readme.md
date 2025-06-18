@@ -22,7 +22,31 @@ Please note that malicious external programs can now inject custom logic to Fire
 
 # Install
 
-## Setting up config.js from "program" folder
+## GUI Installer (Recommended)
+
+For an easy installation experience, use the cross-platform GUI installer:
+
+**Quick Start:**
+```bash
+# Download and run the installer
+curl -O https://raw.githubusercontent.com/MrOtherGuy/fx-autoconfig/master/ui/fx_autoconfig_installer.py
+python fx_autoconfig_installer.py
+```
+
+**Features:**
+- 🔍 Auto-detects Firefox installation and profiles
+- ⚡ One-click installation and uninstallation
+- 🗂️ Built-in startup cache management
+- 🌐 Works on Windows, macOS, and Linux
+- 📦 No dependencies (uses Python + Tkinter)
+
+**Requirements:** Python 3.6+ with Tkinter (included in most Python installations)
+
+See the [GUI Installer README](ui/README.md) for detailed instructions, troubleshooting, and creating standalone executables.
+
+## Manual Installation
+
+If you prefer manual installation or need to customize the setup:
 
 Copy the *contents* of the directory called "program" (not the directory itself) into the directory of the Firefox binary you want it to apply to.
 
